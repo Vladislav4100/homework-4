@@ -1,0 +1,43 @@
+*{
+	box-sizing:border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+
+.row {
+
+	background :green;
+	border:2px solid white;
+}
+[class*=col-]{
+	padding:0;
+	background:blue;
+}
+.col-3{
+	height:300px;
+}
+
+div { 
+    padding:0;
+	border: 1px solid white;
+	color:white;
+	height:100px;
+}
+
+.slider{
+		list-style-type:none;
+}
+.slider-item{
+		display:none;
+	
+}
+
+.slider-item.active{
+		display:block;
+}
